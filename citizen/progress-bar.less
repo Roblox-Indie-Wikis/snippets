@@ -1,0 +1,19 @@
+.citizen-progressbar {
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+  height: 2px;
+  background: hsl(var(--color-primary__h), var(--color-primary__s), var(--color-primary__l));
+  top: 0;
+  left: 0;
+	/* Fancy shadow under progress */
+	filter: drop-shadow( 0 0 16px var( --color-progressive ) );
+	/* Align style with the form */
+	border-radius: 0 0 var( --border-radius-large ) var( --border-radius-large );
+transition: all .2s
+}
+
+.citizen-progressbar:hover {
+height: 12px;
+transition: all .2s
+}
