@@ -1,0 +1,75 @@
+/* userprofilev2 extension needed */
+/*** profile ***/
+.profile-header-attributes .profile-user-group {
+background-color: var(--color-surface-1);
+color: var(--color-base)!important;
+border: var(--border-width-base) solid var(--border-color-base);
+margin-top: -1px;
+font-weight: normal;
+transition: .5s font-weight
+}
+
+.profile-header-attributes .profile-user-group:hover {
+font-weight: bold;
+transition: .5s font-weight
+}
+
+.profile-header-attributes > h1 {
+font-family: "Figtree", "Helvetica", sans-serif!important
+}
+
+.profile-wrapper {
+        background:
+        linear-gradient(
+            rgba(0, 0, 0, 0.11),
+            rgba(255, 255, 255)
+        ), url("https://static.wikitide.net/utgwiki/d/de/IA8.png");	
+    padding: 5px 20px;
+    background-size: cover;
+border-radius: 30px;
+border: 2px solid;
+margin: auto;
+justify-self:center;
+}
+
+.skin-theme-clientpref-night .profile-wrapper {
+background: linear-gradient(rgba(0, 0, 0, 0.11), rgba(0, 0, 0)), url(https://static.wikitide.net/utgwiki/4/43/ProfileBG.png);
+}
+
+.profile-avatar {
+	padding: 10px	
+}
+
+.profile-avatar-image:hover {
+transform: scale(1.05);
+}
+
+.profile-avatar-image {
+    transition: transform 125ms ease-in-out;
+border-radius: 50%!important
+}
+
+.profile-identitybox {
+align-items: center
+}
+
+.profile-externalLinks {
+  position: absolute;
+  top: 72px;
+right: 5px;
+margin-bottom: -10px;
+  /* font-size: 1.25em; */
+}
+.profile-externalLinks .external-link.tooltip, .profile-externalLinks a {
+  float: right;
+  background-size:cover;
+  width:40px;
+  height:40px;
+  margin-right: 5px;
+}
+.profile-externalLinks .external-link.tooltip svg, .profile-externalLinks a svg {
+  width: 26px;
+  height: 26px;
+  margin-top: 7px;
+  margin-left: 7px;
+}
