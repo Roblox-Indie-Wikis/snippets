@@ -1,0 +1,29 @@
+/* Slideshow */
+@keyframes scroll { 
+from { transform: translateY(0); }
+to { transform: translateY(calc(-250px * 8)) } /* your height + 50px, multiplied by how many images you have - 1 */
+}
+
+.wrapper {
+width: 200px;
+height: 200px;
+overflow: hidden;
+position: relative;
+display: flex;
+}
+
+.wrapper .track {
+display: flex;
+flex-direction: column;	
+width: 100%;
+height: calc(200px * 9); /* how many images you have */
+gap: 50px;
+animation: scroll 60s 0.5s infinite
+}
+
+.wrapper .track img {
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+	object-position: center;
+}
