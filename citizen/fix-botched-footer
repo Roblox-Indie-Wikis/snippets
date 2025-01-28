@@ -1,0 +1,15 @@
+/* epic fix for the botched footer icons */
+
+#footer-icons ul li a {
+background: transparent;
+width: auto;
+border: unset;
+margin-left: -10px;
+margin-right: -10px;
+}
+
+.citizen-footer__bottom {
+justify-content: space-between
+}
+
+/* remove the margins if you do not use the same logo icons as mine (utg) */
