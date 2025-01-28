@@ -1,0 +1,53 @@
+.mw-dismissable-notice-body table {
+background-image: var(--utgwindow-img)!important;
+background-color: var(--utgwindow)!important;
+background-position: bottom;
+background-repeat: repeat-x;
+background-size: 30% auto;
+color: var(--color-base)!important;
+--utgwindow-img: url(https://static.miraheze.org/utgwiki/b/bd/LightModeGreenTeam.png);
+--utgwindow: #DBFFD8;
+--color-link: #4C7D49;
+}
+
+/* for citizen
+.skin-theme-clientpref-night .mw-dismissable-notice-body table {
+--utgwindow-img: url(https://static.wikitide.net/utgwiki/d/d1/EventPortableInfobox.png);
+--utgwindow: #394800;
+--color-link: #8ceb34;
+} */
+
+.mw-dismissable-notice-body table tbody tr td {
+background: unset!important;
+}
+
+.mw-dismissable-notice-body table tbody tr td {
+border-color: var(--color-success)!important;
+}
+
+.mw-dismissable-notice-body table tbody tr td div {
+display: flex;
+flex-direction: row;
+align-items: center;
+padding-top: 0.1em!important;
+flex-wrap: wrap;
+row-gap: 3px;
+justify-content: space-between;
+}
+
+.mw-dismissable-notice-body table tbody tr td div div:nth-of-type(2) {
+text-align: left;
+width: 30%;
+color: var(--color-base)!important;
+}
+
+.mw-dismissable-notice-body table tbody tr td div div:nth-of-type(3) {
+font-size: var(--font-size-medium)!important;
+height: auto;
+text-align: right;
+padding-left: 10px;
+padding-right: 10px;
+padding-bottom: 0!important;
+width: 55%;
+color: var(--color-base)!important;
+}
