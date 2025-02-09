@@ -3,7 +3,7 @@ Sharing is caring! This repository contains helpful code snippets you might want
 
 # featured
 
-these stuff can be seen on places such as the
+these stuff can be seen on places such as the...
 - [HELLMET wiki](https://hellmet.miraheze.org)
 - [untitled tag game wiki](https://utg.miraheze.org)
 - [Hybrid Cafe wiki](https://hybridcafe.wiki)
