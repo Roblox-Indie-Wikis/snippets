@@ -1,5 +1,7 @@
-# snipstacked
-hi! i'm snowstacked, or stacked, or stackd, or like whatever. this repository(?) is where i share my code to everyone here because sharing is caring... duh
+# snippets
+Sharing is caring! This repository contains helpful code snippets you might want to use on your wiki! Contributed by members of the IRWA. 
+
+# featured
 
 these stuff can be seen on places such as the
 - [HELLMET wiki](https://hellmet.miraheze.org)
@@ -7,3 +9,6 @@ these stuff can be seen on places such as the
 - [Hybrid Cafe wiki](https://hybridcafe.wiki)
 - [Minus Elevation wiki](https://minuselevation.miraheze.org)
 - [REGRETEVATOR Miraheze wiki](https://regretevator.miraheze.org)
+
+# contributing
+Open an issue or PR if you'd like to add or see something! If its from another wiki, make sure to check the licensing rules! 
