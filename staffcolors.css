@@ -1,0 +1,13 @@
+/* so this is how you can add colors to user page links!!! */
+a[href$=":USERNAMEHERE"],
+a[href$="/USERNAMEHERE"]{
+	color: #COLORHERE !important;
+	font-weight: bold !important; /* this part is optional i gues,,,,, */
+}
+
+/* for ex here's mine */
+a[href$=":WildVoltaireian"],
+a[href$="/WildVoltaireian"]{
+	color: #ff3535 !important;
+	font-weight: bold !important;
+}
