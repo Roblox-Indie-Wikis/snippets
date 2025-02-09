@@ -1,0 +1,144 @@
+/* this file contains my styling for like the general site css on outlaster like the body background and borders and stuff liek that lol */
+body {
+	background-size: cover;
+}
+.skin-theme-clientpref-night body {
+	background-image: url("https://static.wikitide.net/outlasterwiki/d/d8/OutlasterToastySeatingthumb.jpeg");
+}
+.skin-theme-clientpref-day body {
+	background-image: url("https://static.wikitide.net/outlasterwiki/7/77/OutlasterTropicalthumb.jpeg");
+}
+
+#skin-client-prefs-skin-theme .citizen-client-prefs-radio__label[for="skin-client-pref-skin-theme-value-night"],
+#skin-client-prefs-skin-theme .citizen-client-prefs-radio__label[for="skin-client-pref-skin-theme-value-day"],
+#skin-client-prefs-skin-theme .citizen-client-prefs-radio__label[for="skin-client-pref-skin-theme-value-os"] {
+	color: transparent!important;
+	position: relative!important;
+}
+
+#skin-client-prefs-skin-theme .citizen-client-prefs-radio__label[for="skin-client-pref-skin-theme-value-night"]::before,
+#skin-client-prefs-skin-theme .citizen-client-prefs-radio__label[for="skin-client-pref-skin-theme-value-day"]::before
+#skin-client-prefs-skin-theme .citizen-client-prefs-radio__label[for="skin-client-pref-skin-theme-value-os"]::before{
+	font-size: var(--font-size-small);
+	position: absolute!important;
+	display: flex;
+	justify-content: center;
+	align-items: center!important;
+	text-align: center!important;
+	margin: auto;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+/* sidebar buttons */
+#skin-client-prefs-skin-theme .citizen-client-prefs-radio__label[for="skin-client-pref-skin-theme-value-night"] {
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://static.wikitide.net/outlasterwiki/d/d8/OutlasterToastySeatingthumb.jpeg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: transparent;
+	position: relative;
+}
+
+#skin-client-prefs-skin-theme .citizen-client-prefs-radio__label[for="skin-client-pref-skin-theme-value-night"]::before {
+	content: "Vacation";
+	color: white
+}
+
+#skin-client-prefs-skin-theme .citizen-client-prefs-radio__label[for="skin-client-pref-skin-theme-value-day"] {
+	background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(https://static.wikitide.net/outlasterwiki/7/77/OutlasterTropicalthumb.jpeg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: transparent;
+	position: relative;
+}
+
+#skin-client-prefs-skin-theme .citizen-client-prefs-radio__label[for="skin-client-pref-skin-theme-value-day"]::before {
+	content: "Tropical";
+	color: black;
+}
+
+#skin-client-prefs-skin-theme .citizen-client-prefs-radio__label[for="skin-client-pref-skin-theme-value-os"]::before {
+	content: "Noir (Auto)";
+	color: var(--color-progressive)
+}
+
+.citizen-page-header {
+	margin-top: 15px !important;
+	margin-bottom: 15px !important;
+	border-radius: 16px;
+	backdrop-filter: blur(25px);
+}
+.read-more-container-card-list {
+	border-radius: 16px;
+	backdrop-filter: blur(25px);
+}
+
+.skin-theme-clientpref-night .citizen-body-container {
+	background: rgba(13, 14, 18, 0.75); /* translucent black */
+	border: 1.5px solid rgba(255,255,255,0.15) !important;
+}
+.skin-theme-clientpref-night #citizen-page-header .read-more-container-card-list {
+	background: rgba(13, 14, 18, 0.75); /* translucent black */
+	border: 1.5px solid rgba(255,255,255,0.15) !important;
+}
+.skin-theme-clientpref-night .citizen-menu__card {
+	background-color: rgba(13, 14, 18, 0.75) !important;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1) !important;
+	backdrop-filter: blur(30px) !important;
+}
+
+.skin-theme-clientpref-day .citizen-body-container {
+	background: rgba(243, 245, 248, 0.65); /* translucent white */
+	border: 1.5px solid rgba(32,32,32,0.95) !important;
+}
+.skin-theme-clientpref-day #citizen-page-header .read-more-container-card-list {
+	background: rgba(243, 245, 248, 0.65); /* translucent white */
+	border: 1.5px solid rgba(32,32,32,0.95) !important;
+}
+.skin-theme-clientpref-day .citizen-menu__card {
+	background-color: rgba(243, 245, 248, 0.65) !important;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1) !important;
+	backdrop-filter: blur(30px) !important;
+	-webkit-backdrop-filter: blur(30px) !important;
+}
+
+.citizen-feature-custom-width-clientpref-full .citizen-body-container,
+.citizen-feature-custom-width-clientpref-full .citizen-page-header {
+	max-width: 97.5% !important;
+}
+
+.citizen-feature-custom-width-clientpref-wide .citizen-body-container,
+.citizen-feature-custom-width-clientpref-wide .citizen-page-header {
+	max-width: 95% !important;
+}
+
+.citizen-feature-custom-width-clientpref-standard .citizen-body-container,
+.citizen-feature-custom-width-clientpref-standard .citizen-page-header {
+	max-width: 90% !important;
+}
+
+.citizen-body-container,
+.citizen-page-header {
+	margin: auto;
+}
+.citizen-body-container {
+	padding: 20px 25px 30px 25px;
+	border-radius: 16px;
+	backdrop-filter: blur(25px);
+}
+.citizen-toc-card {
+	border-radius: 12px !important;
+	border: 2px solid var(--color-surface-2) !important;
+	padding: 8px !important;
+}
+@media screen and (max-width: 1119px) {
+	.citizen-body-container {
+		backdrop-filter: none;
+	}
+	.citizen-page-header {
+		backdrop-filter: none;
+}
+}
