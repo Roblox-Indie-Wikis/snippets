@@ -1,0 +1,13 @@
+/* to style the roblox play button (ripped from the roblox website) */
+
+.playbutton {
+   background-color: #335fff;
+   border-color: #335fff;
+   border-radius: 8px;
+   min-height: 60px;
+   margin: auto;
+   background-image:url(https://static.wikitide.net/jbcstudioswiki/e/ea/Playbutton.svg);
+   background-size: 34px auto;
+   background-position: center;
+   background-repeat: no-repeat
+}
