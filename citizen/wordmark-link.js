@@ -21,7 +21,7 @@ $(document).ready(function () {
   });
 });
 
-// The above css makes all instances of .mw-logo-wordmark link to the mainpage.
+// The above js makes all instances of .mw-logo-wordmark link to the mainpage.
 // The two major instances of the logo wordmark are in your footer and the citizen sidebar.
 
 // This javascript is public domain and can be used without permission, attirbution, or royalities.
